@@ -408,10 +408,18 @@ button {
   .logo .z{
     font-size: 50px;
   }
+  .logo{
+    margin-bottom: 0;
+  }
   #herologo {
-    width: 135px !important;
+    padding: 10px;
+    width: 100px !important;
     max-width: 70% !important;
     margin-bottom: -35px;
+  }
+  .revo{
+    margin-top: -25px;
+    margin-bottom: 5px;
   }
   #myVideo{
     width:100%;
