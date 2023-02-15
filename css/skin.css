@@ -394,7 +394,7 @@ button {
   border: 1px solid whitesmoke;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (max-width:390px) {
   .time {
     font-size:large;
     margin: 0 8px;
