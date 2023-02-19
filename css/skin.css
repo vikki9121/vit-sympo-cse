@@ -187,6 +187,10 @@ html {
 }
 .extraBold {
   font-weight: 700;
+  font-family: verminVibes;
+}
+.extraBold1{
+  font-weight: 700;
 }
 
 .gradient0 {
@@ -361,7 +365,7 @@ li {
   width: 100%;
   height: max-content;
   padding: 3rem;
-  background-color: #00000076;
+  background-color: #000000ba;
 }
 
 button {
@@ -393,7 +397,10 @@ button {
   transition: ease 0.7s;
   border: 1px solid whitesmoke;
 }
-
+.surprise .columnImage{
+  width: 50%;
+  display: block;
+}
 @media screen and (max-width: 480px) and (max-width:390px) {
   .time {
     font-size:large;
@@ -427,5 +434,9 @@ button {
   }
   #bdy{
     height: max-content;
+  }
+  .surprise .columnImage{
+    width: 90%;
+    display: block;
   }
 }
